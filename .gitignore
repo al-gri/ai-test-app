@@ -1,0 +1,5 @@
+.ai-team-state/
+.env*
+*.key
+*.sqlite*
+__pycache__/

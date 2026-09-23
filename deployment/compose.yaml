@@ -1,0 +1,38 @@
+name: ai-test-app
+services:
+  dashboard:
+    image: ai-test-app-control:1.1.1
+    command: [python, /opt/deployment/deployment.py, serve]
+    restart: unless-stopped
+    ports: ["127.0.0.1:8765:8765"]
+    volumes: ["state:/state", "credentials:/credentials:ro"]
+    read_only: true
+    tmpfs: ["/tmp:size=64m"]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+  watchdog:
+    image: ai-test-app-control:1.1.1
+    command: [python, -m, adaptive_team.security.watchdog, --database, /state/watchdog.sqlite, --endpoint, "tcp://host.docker.internal:2375", --docker-config, /opt/docker-empty, --allow-local-tcp]
+    restart: unless-stopped
+    volumes: ["state:/state"]
+    read_only: true
+    tmpfs: ["/tmp:size=64m"]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+  runner:
+    image: ai-test-app-control:1.1.1
+    profiles: [manual]
+    command: [python, /opt/deployment/run_project.py]
+    volumes: ["state:/state", "credentials:/credentials:ro", "work:/work"]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+volumes:
+  state:
+    external: true
+    name: ai-test-app_state
+  credentials:
+    external: true
+    name: ai-test-app_credentials
+  work:
+    external: true
+    name: ai-test-app_work
