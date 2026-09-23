@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="calculator" role="application" aria-label="Calculator">
+    <h1 class="calculator__title">Calculator</h1>
+
+    <div
+      id="display"
+      class="display"
+      role="textbox"
+      aria-live="polite"
+      aria-atomic="true"
+      aria-label="Expression"
+    ></div>
+
+    <p id="error" class="error" role="alert" aria-live="assertive" hidden></p>
+
+    <div class="keys">
+      <button type="button" class="key key--action" data-action="clear" aria-label="Clear">AC</button>
+      <button type="button" class="key key--action" data-action="delete" aria-label="Delete">⌫</button>
+      <button type="button" class="key key--util" data-insert="(" aria-label="Open parenthesis">(</button>
+      <button type="button" class="key key--util" data-insert=")" aria-label="Close parenthesis">)</button>
+
+      <button type="button" class="key" data-insert="7">7</button>
+      <button type="button" class="key" data-insert="8">8</button>
+      <button type="button" class="key" data-insert="9">9</button>
+      <button type="button" class="key key--op" data-insert="/" aria-label="Divide">÷</button>
+
+      <button type="button" class="key" data-insert="4">4</button>
+      <button type="button" class="key" data-insert="5">5</button>
+      <button type="button" class="key" data-insert="6">6</button>
+      <button type="button" class="key key--op" data-insert="*" aria-label="Multiply">×</button>
+
+      <button type="button" class="key" data-insert="1">1</button>
+      <button type="button" class="key" data-insert="2">2</button>
+      <button type="button" class="key" data-insert="3">3</button>
+      <button type="button" class="key key--op" data-insert="-" aria-label="Subtract">−</button>
+
+      <button type="button" class="key" data-insert="0">0</button>
+      <button type="button" class="key" data-insert="." aria-label="Decimal point">.</button>
+      <button type="button" class="key key--op" data-insert="+" aria-label="Add">+</button>
+      <button type="button" class="key key--equal" data-action="calculate" aria-label="Equals">=</button>
+    </div>
+
+    <section class="history" aria-label="History">
+      <h2 class="history__title">History</h2>
+      <ul id="history" class="history__list"></ul>
+    </section>
+  </main>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>

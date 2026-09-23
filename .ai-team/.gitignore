@@ -1,0 +1,10 @@
+state/
+*.db
+*.db-*
+*.sqlite*
+.env*
+keys/
+__pycache__/
+*.pyc
+memory/project/
+project/context.json

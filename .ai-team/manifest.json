@@ -1,0 +1,827 @@
+{
+  "bundle_type": "adaptive-ai-team-portable",
+  "files": {
+    "README.md": {
+      "sha256": "b3ac24df291e35f5f854dffc5d9597b19983992a270a19c2e9a67af956629fcf",
+      "size": 1852
+    },
+    "adaptive_team/__init__.py": {
+      "sha256": "c798d7accc44be967d949abcd7664ccb4c779ca6e15f732abbd4c43f00e52a69",
+      "size": 107
+    },
+    "adaptive_team/__main__.py": {
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "size": 48
+    },
+    "adaptive_team/architect.py": {
+      "sha256": "4005434eceee6ca3dc8ac8cedbb96e5553a74f8a3cf5c9b3be632e9fbebbb262",
+      "size": 8007
+    },
+    "adaptive_team/cli.py": {
+      "sha256": "bca453a4666ccb10543663bd428f05721879f6ba144ce7139d72dbc9d290672d",
+      "size": 10412
+    },
+    "adaptive_team/code_integration/__init__.py": {
+      "sha256": "ee62ddaabb9fc6c09b8e0ead7220691e6d91c72666ae70d2487bdd9b5b2f772a",
+      "size": 69
+    },
+    "adaptive_team/code_integration/_git.py": {
+      "sha256": "4feee923b8785ec76d8df27ad7905160379de59fd463c6cb6f2c778a25b9a33c",
+      "size": 5714
+    },
+    "adaptive_team/code_integration/commits.py": {
+      "sha256": "4f9368a963e2e7b927e23b0fc624d1fb31c35c0959c63fd56c9bb2f1f5452342",
+      "size": 20313
+    },
+    "adaptive_team/code_integration/conflicts.py": {
+      "sha256": "c588d7c16a5c4f37c8af29384621fd753579d115e03e4f99efc76044d1578e1e",
+      "size": 14032
+    },
+    "adaptive_team/code_integration/dependency_policy.py": {
+      "sha256": "25c35b39b7cb944ae867ad549b90c7d22999dbc5794f773015c705ce777667fb",
+      "size": 2060
+    },
+    "adaptive_team/code_integration/worktrees.py": {
+      "sha256": "aa02db67a59b389c0ed0aadb75e9ec70e8997d923752114257da2ab6464c3954",
+      "size": 8810
+    },
+    "adaptive_team/control_plane/__init__.py": {
+      "sha256": "ff3287d6e1fd0e302778398ff6c856a83618b5b0ccfa3108065ddf6ec625ed48",
+      "size": 79
+    },
+    "adaptive_team/control_plane/__main__.py": {
+      "sha256": "97ec7ec8d8fe7d9e0dfd8adaf0ae7aa5156cc1e592f0f654121ecebef27d32c2",
+      "size": 1972
+    },
+    "adaptive_team/control_plane/app.py": {
+      "sha256": "7204185a4be9fccb27efa82378fefddcac4d13c8d138d9680c782ec38ce59d01",
+      "size": 9285
+    },
+    "adaptive_team/control_plane/evidence.py": {
+      "sha256": "dad1c4d6e3720a0798e70c6954423decf90b7eb1e824db145a22ec09971d6b48",
+      "size": 5036
+    },
+    "adaptive_team/control_plane/queries.py": {
+      "sha256": "2b08bd3e667cf8e4d2249a5990cf843a7dc9ca9189032d669e9a96a4a91da00a",
+      "size": 4343
+    },
+    "adaptive_team/control_plane/static/app.js": {
+      "sha256": "c9af0a80e49cc09b3cea7eb7e13d4a2af4a9015e984610281ecdd3be74c13c04",
+      "size": 5605
+    },
+    "adaptive_team/control_plane/static/index.html": {
+      "sha256": "d911f8f5bdf3a27dd3529bf324a64dcff66d0460946573b1e8220cd042e27f9e",
+      "size": 3234
+    },
+    "adaptive_team/control_plane/static/style.css": {
+      "sha256": "b8475754e643c1c1b87179dd7622e92847cf9a51085ec91ebcb66d55a22bdd87",
+      "size": 3742
+    },
+    "adaptive_team/discovery.py": {
+      "sha256": "bf7f62c1d4714d8a788d99a36c7a62bf7849efc709515133d4da0f2d3f373bde",
+      "size": 11031
+    },
+    "adaptive_team/engine.py": {
+      "sha256": "4c55ff3d8fc15b6f58383e503c307dd7f89438d7cf1647d8e2170cd414767b90",
+      "size": 40437
+    },
+    "adaptive_team/evolution.py": {
+      "sha256": "8e726f6d58a6c80e7dcad9b65609efa39b08bf61d36a9d12c8e0e5861e7888cb",
+      "size": 20483
+    },
+    "adaptive_team/llmops/__init__.py": {
+      "sha256": "3ffdd4df4963b8f419261ac315e60b51014eb0772c46b740f9f20374c64cbb19",
+      "size": 81
+    },
+    "adaptive_team/llmops/evaluations.py": {
+      "sha256": "02cbbd92b7e737668875c5e045ad664df16e0b59c036d0cd1b55f0ce2f5f0098",
+      "size": 15079
+    },
+    "adaptive_team/llmops/human_requests.py": {
+      "sha256": "962eb3f58481ff1a3c52864999eee14d0cecb38bfad64796be4b470b4d1ee678",
+      "size": 8606
+    },
+    "adaptive_team/llmops/quality_policy.py": {
+      "sha256": "76b5748191393feaf651c5fd130d4bb25ec4371ce67eaa1502e2ea0f023d6e28",
+      "size": 1455
+    },
+    "adaptive_team/llmops/services.py": {
+      "sha256": "450d04ddfd6624272e6d8c998573de8af99c5289a12cee8411ab69bb8960ea2f",
+      "size": 2122
+    },
+    "adaptive_team/llmops/token_ledger.py": {
+      "sha256": "558e7b1d0ab94f3302e4a8c0f7e1b957960a3997aa473635973c12d25deb0399",
+      "size": 13972
+    },
+    "adaptive_team/memory/__init__.py": {
+      "sha256": "f77a91964ab54ac9610551233f035d5f53beafcff2a2757721554e0d855a067c",
+      "size": 78
+    },
+    "adaptive_team/memory/portable.py": {
+      "sha256": "75c270443d384944d0afed7bdf4565f639f9774bb762705585c68f3828ead31c",
+      "size": 5904
+    },
+    "adaptive_team/memory/reflector.py": {
+      "sha256": "4150340d986aefb5f213032ce8d06b6b9b319d4983b70929570650a1bb232748",
+      "size": 5006
+    },
+    "adaptive_team/memory/retrieval.py": {
+      "sha256": "72f3fb1667bd28367fffd67a05eaf5356cd7862d76976d1a6940563e4519baa2",
+      "size": 1183
+    },
+    "adaptive_team/memory/snapshots.py": {
+      "sha256": "659cd2d9460c0ee6dfaa39799c66d6dbf73d9d50f57d04a17bca9bca2bb4e8cd",
+      "size": 7514
+    },
+    "adaptive_team/memory/state.py": {
+      "sha256": "7ff9b8c58863aa4f03eca1794c3d915eae2268d5f326252ecce11aa7063d64d0",
+      "size": 7342
+    },
+    "adaptive_team/memory/supervisor.py": {
+      "sha256": "5940320d42cc29c2ef9d07302077f6b35ff0fc41d41c26335aae5b016c1e37fd",
+      "size": 9386
+    },
+    "adaptive_team/memory/vector_store.py": {
+      "sha256": "5d7234a397ed5247ccb176955cde43a545dd4bd5a9074a5373f14e5f2d547054",
+      "size": 8153
+    },
+    "adaptive_team/models.py": {
+      "sha256": "2e7035e861f6f793369034f4e521e11d3165235503a48bdb701e82136f67773e",
+      "size": 11069
+    },
+    "adaptive_team/observability/__init__.py": {
+      "sha256": "fc0fdad6d0b3fd0ee283d8ade633c79f76b9d1e6b9ae2dc1407630342c2ff9dc",
+      "size": 62
+    },
+    "adaptive_team/observability/background.py": {
+      "sha256": "20273a0d593d8bfbd02f9581ff61739960d61331ade7779ae5bff90c02c8c409",
+      "size": 2008
+    },
+    "adaptive_team/observability/otel.py": {
+      "sha256": "bde8649cda5ec39f08e7fba69c8129bdad9b2197cacf8f44bd5f555108e78fb7",
+      "size": 11234
+    },
+    "adaptive_team/observability/redaction.py": {
+      "sha256": "bd2877b803057ac42ccb5c9a17ea3a07aa5602284f4d942efddf5ce903f0285d",
+      "size": 3364
+    },
+    "adaptive_team/observability/rpc_outbox.py": {
+      "sha256": "66658ac2e78d7594a88c678ff92555690b53b8366d02497767605759e33559dd",
+      "size": 1625
+    },
+    "adaptive_team/observability/run_identity.py": {
+      "sha256": "7044d90f2b8513e5b7ff938dca9fc3097c8895adb70dcaf67600bfdbdc25ad64",
+      "size": 851
+    },
+    "adaptive_team/observability/tracing.py": {
+      "sha256": "4b13c8a2d2fbcd6805f8d49de89a7ea9d22b776c9b91122c5a496bca1c06eba2",
+      "size": 4981
+    },
+    "adaptive_team/orchestration/__init__.py": {
+      "sha256": "dc5dae8e0e93ebc5513367f6f52d0f6f273594249049f98e76d6a1fac4f0994b",
+      "size": 84
+    },
+    "adaptive_team/orchestration/coordinator.py": {
+      "sha256": "46b5fffeecb882109f63dabf3c0acdf5ea6001a27f72fde6624d3ecf7ae71e7c",
+      "size": 10475
+    },
+    "adaptive_team/orchestration/dag.py": {
+      "sha256": "4a80abe48256a5b78cb9f15fa70072738f2f49a0ec15a5ad36161798b2739920",
+      "size": 5032
+    },
+    "adaptive_team/orchestration/git_executor.py": {
+      "sha256": "f6a12e8edba4d7397ccd712780ebffbe48bd1e0e506bb2ad15587534ef978970",
+      "size": 9699
+    },
+    "adaptive_team/orchestration/integration.py": {
+      "sha256": "9222cc9b1ed60a9d19b47cf1bca72cc7a8509725c7b6e077d760dfabcfe25897",
+      "size": 4751
+    },
+    "adaptive_team/orchestration/integrations.py": {
+      "sha256": "830b837a16e748d09d74e26d49a76cddfc663e556288edf3a2591ccb1e6109d0",
+      "size": 9612
+    },
+    "adaptive_team/orchestration/memory_services.py": {
+      "sha256": "794aae8dd0d90d32829dcc9a4d1b4d74b009b81b00a90091e3bc72e5472a1358",
+      "size": 3074
+    },
+    "adaptive_team/orchestration/result_outbox.py": {
+      "sha256": "af27b5c23492a5cb96091b842768fecedcf7d9b1d6ee42dcbe4c13e84436e5b6",
+      "size": 4417
+    },
+    "adaptive_team/orchestration/task_files.py": {
+      "sha256": "72bfffca030f7a33fc34bf05b3795330ab504632a3f1036672f9158431f6b03f",
+      "size": 14040
+    },
+    "adaptive_team/orchestration/task_lifecycle.py": {
+      "sha256": "2aca47236203e21bd4572619e8816251b5d80c81e964b45b94672b0f45c1e775",
+      "size": 16847
+    },
+    "adaptive_team/orchestration/waves.py": {
+      "sha256": "ed352237c25e34eddac2a5f3d6d7bf50db746f2ac80de81f4b4fbfa28ed1fffb",
+      "size": 4376
+    },
+    "adaptive_team/planner.py": {
+      "sha256": "194512fb7da2b3cc52905acd90953906a7bf60dfdeeb73f3f9c74911fd7d55e2",
+      "size": 7378
+    },
+    "adaptive_team/portable.py": {
+      "sha256": "de00a9103d15bf9dee0213baebf907c4e5e2e2f9cb25765270d6da7e5518dc9b",
+      "size": 25313
+    },
+    "adaptive_team/prompting.py": {
+      "sha256": "4181b4491475acd1e186ace2b200f9e58d395d50bbeba80b49dd23ed0b6af73c",
+      "size": 3724
+    },
+    "adaptive_team/prompts/chief-architect.md": {
+      "sha256": "2b2ade2cc6d65785f652a57bb3a65ee3405ba5373fa31d59d3e46deff37ddf2b",
+      "size": 5094
+    },
+    "adaptive_team/prompts/implementer.md": {
+      "sha256": "571ffbc2b26d6cfa6999363417054cdb1be16011c960575b7762b8cee9c2d3fe",
+      "size": 1490
+    },
+    "adaptive_team/prompts/reviewer.md": {
+      "sha256": "2752b128e96f4d2728bcbb11155f3a9bfcc36966e634715402f80810db394b27",
+      "size": 1247
+    },
+    "adaptive_team/prompts/roles/acceptance_reviewer.md": {
+      "sha256": "9d5b893f28380e77ccc602e392f95c8782d554a1e900b9793d85b4045b7c31d8",
+      "size": 3130
+    },
+    "adaptive_team/prompts/roles/accessibility_specialist.md": {
+      "sha256": "8055d4c74368f127daaf7467619c540ad18f3024b2ad4322ecd63d3982ac7406",
+      "size": 3138
+    },
+    "adaptive_team/prompts/roles/agent_systems_engineer.md": {
+      "sha256": "471a5289ea24904c57fe4a182cccd912d192c1c7721fad45a1d2ffd659360f5d",
+      "size": 3267
+    },
+    "adaptive_team/prompts/roles/analytics_engineer.md": {
+      "sha256": "c8f2ebf20d4c532a784c98099397c169f8abe12857fe7789099232abc1e6be2f",
+      "size": 2975
+    },
+    "adaptive_team/prompts/roles/android_engineer.md": {
+      "sha256": "79fcc3490cf0457d35c5c42b899a9fe4aa66484d2fa119794b3a913b2850b755",
+      "size": 2631
+    },
+    "adaptive_team/prompts/roles/api_architect.md": {
+      "sha256": "59800a975fd0880237873cb951042a41e95797b6d66790ca5431fa12309ae8b3",
+      "size": 3080
+    },
+    "adaptive_team/prompts/roles/appsec_engineer.md": {
+      "sha256": "e0aa1e6392d013ff8eeb54da608252f26b3e2991fc26199cb9140f544ed5abd3",
+      "size": 3065
+    },
+    "adaptive_team/prompts/roles/architecture_reviewer.md": {
+      "sha256": "8ad3fd3994637bf744107e234947e4b9872dfd80d13ba1997268bdb926d465cd",
+      "size": 3145
+    },
+    "adaptive_team/prompts/roles/backend_engineer.md": {
+      "sha256": "6d7885ba3721ded9a705ca9ccb1c331710d69119d04692ca714bd6e909bf41eb",
+      "size": 2621
+    },
+    "adaptive_team/prompts/roles/browser_qa.md": {
+      "sha256": "f1bde1eebe7a95ec67a0d94e7023902f4f739806ad3b39a3f17d11717574f005",
+      "size": 3033
+    },
+    "adaptive_team/prompts/roles/build_engineer.md": {
+      "sha256": "3f04c03ae7c9709458207e9aafd20c1c3dcae29708fc029ddf053a725831c1a5",
+      "size": 3147
+    },
+    "adaptive_team/prompts/roles/business_analyst.md": {
+      "sha256": "d49bcaf42a4ee8e7e8785be36a92a108698dba69addf0102ac8ce206f25777c7",
+      "size": 3144
+    },
+    "adaptive_team/prompts/roles/chaos_engineer.md": {
+      "sha256": "d86bcecf0bb2db21c3a281edfe9bbbeda3e795b8fa10bd5f1fd4d381228dd035",
+      "size": 3106
+    },
+    "adaptive_team/prompts/roles/chief_architect.md": {
+      "sha256": "2499976f765eb8e947c77e017f285b0712ae4e9c0a1dd85d1f8a0e03009363cc",
+      "size": 3230
+    },
+    "adaptive_team/prompts/roles/cloud_architect.md": {
+      "sha256": "c72329dd156157e1ae819b8594fea23e0b2715103a27bff85ed1b0492d9c74e0",
+      "size": 3122
+    },
+    "adaptive_team/prompts/roles/code_reviewer.md": {
+      "sha256": "78f8e3bcd224139e9f254ea26b463fffc6ff6a6964a7cfb272ddc62a64f8675b",
+      "size": 3161
+    },
+    "adaptive_team/prompts/roles/commerce_specialist.md": {
+      "sha256": "3b242e84f8d502e08193d6ada2b55b6564456ce8ff470fca68619e9567486e5b",
+      "size": 3050
+    },
+    "adaptive_team/prompts/roles/compatibility_engineer.md": {
+      "sha256": "d226ad5738a7001ddcdc9e59f10b472fde983f48acf0d37bfb0a520f09067057",
+      "size": 3062
+    },
+    "adaptive_team/prompts/roles/competitive_analyst.md": {
+      "sha256": "badf9b9ec478a2c480c61178266f2868489d487f690b4f6eaea4b8079b6bc396",
+      "size": 3153
+    },
+    "adaptive_team/prompts/roles/compiler_engineer.md": {
+      "sha256": "6092760f644938f9dc94e5b67ee7dcbeb2e8cae118f06692d45299d231e6d41e",
+      "size": 2655
+    },
+    "adaptive_team/prompts/roles/compliance_analyst.md": {
+      "sha256": "6e0f6ffc849bd2c68286de1890fbc668fa73e0e6f4226fd73eb6eee4662fe4ea",
+      "size": 3088
+    },
+    "adaptive_team/prompts/roles/content_designer.md": {
+      "sha256": "6fae14044543ed3eafecfcf290dc34377ffeecf8f88ae8e9d16cc6185e8c0bf4",
+      "size": 3048
+    },
+    "adaptive_team/prompts/roles/cost_analyst.md": {
+      "sha256": "7429f9397a4cd3d41237bcd0d598cb9dfbbd82fa3368a895007babe000a6ae31",
+      "size": 3040
+    },
+    "adaptive_team/prompts/roles/crossplatform_engineer.md": {
+      "sha256": "859b26655678e69d39815596b8767937cc50bcd8dd4aea95a9bfe5ec6e2fc1d4",
+      "size": 2616
+    },
+    "adaptive_team/prompts/roles/cryptography_reviewer.md": {
+      "sha256": "5e361821e391663825f9751897a0607b00b71c09f3b9e2220b4e0a7b449f3dc2",
+      "size": 3070
+    },
+    "adaptive_team/prompts/roles/data_architect.md": {
+      "sha256": "c78992736456f9d10a54e46526ed6878b4529776c9c5ad750b2e00b6317de657",
+      "size": 3119
+    },
+    "adaptive_team/prompts/roles/data_engineer.md": {
+      "sha256": "848c5588bca5091802e3bce2041774c2005fe75a8770db308ae4b319dfd80384",
+      "size": 3041
+    },
+    "adaptive_team/prompts/roles/data_scientist.md": {
+      "sha256": "c0008f89db24ca89b186e890ed60916a51bef857c9357f1056759c0991f12f80",
+      "size": 3041
+    },
+    "adaptive_team/prompts/roles/database_engineer.md": {
+      "sha256": "21c8f058b4c507e8426012f9f23adf613d7cc2895df8034e012e12e2162b51ba",
+      "size": 2553
+    },
+    "adaptive_team/prompts/roles/database_operator.md": {
+      "sha256": "f1148b0b75cb10e18ac822cb76cc2dbec97191856a7b1510f10ab0444db55e57",
+      "size": 3081
+    },
+    "adaptive_team/prompts/roles/delivery_coordinator.md": {
+      "sha256": "90b90d1bc4f67a1856cf4695cf1c684520db034e77d41afcc0d4c789c2c0f2b8",
+      "size": 3138
+    },
+    "adaptive_team/prompts/roles/dependency_manager.card.json": {
+      "sha256": "bdd4ed6cc4761cdf190a6e9ff53a94938aec6e84e5880d98bd720d319c6cc11e",
+      "size": 1190
+    },
+    "adaptive_team/prompts/roles/dependency_manager.md": {
+      "sha256": "75f75535d69e764b9f86dbc47793b88a6995c441112e0e2eebbfc1176049c984",
+      "size": 4020
+    },
+    "adaptive_team/prompts/roles/design_system_engineer.md": {
+      "sha256": "518d6505519a732508171dc4b6b4d114bb22683559a1db761bfc4e90d514647e",
+      "size": 3043
+    },
+    "adaptive_team/prompts/roles/desktop_engineer.md": {
+      "sha256": "c3bae745315a210d50856a72d6e32efa5128e6f5dc0b6b30d91543825ffba9b4",
+      "size": 2489
+    },
+    "adaptive_team/prompts/roles/developer.md": {
+      "sha256": "1ddd7cf8633024afe6ceff5cf02298a2f07ebd3fb10a43dd95b6f8c9b80a6701",
+      "size": 2722
+    },
+    "adaptive_team/prompts/roles/developer_experience_engineer.md": {
+      "sha256": "15304dd52ebd30978a682d263a88c6aadec65cf34f5f938c0272de5ca40dcdb1",
+      "size": 3006
+    },
+    "adaptive_team/prompts/roles/devops_engineer.md": {
+      "sha256": "6abc4a4b1af37c0b8bbbe38f9b4f053b2aa934756f571af1cd1ed125d95fa42f",
+      "size": 3113
+    },
+    "adaptive_team/prompts/roles/distributed_systems_architect.md": {
+      "sha256": "9a85a27d5f56ae8ae952803532a9906c7d76a2884a508513d9b255e462ed23bd",
+      "size": 3108
+    },
+    "adaptive_team/prompts/roles/embedded_engineer.md": {
+      "sha256": "4766a58a40cfe0efb0a93b55e2e5d87aae15c61a1bb2cb6cffabb02b6e90f127",
+      "size": 2582
+    },
+    "adaptive_team/prompts/roles/evaluation_engineer.md": {
+      "sha256": "b33858a4fbdc1c4fb051a5fec3c0960099671f7931ff666010255c115e0de4cf",
+      "size": 3104
+    },
+    "adaptive_team/prompts/roles/formal_methods_engineer.md": {
+      "sha256": "79673976433599ca5f2a16e7a6356f80d5ba2537ca6ed8ec75523ae587ed96ad",
+      "size": 3239
+    },
+    "adaptive_team/prompts/roles/frontend_engineer.md": {
+      "sha256": "28529fec95444a9792fa05b42bc9e24e37ef279c03498bed9f2b44dcb6d5f061",
+      "size": 2568
+    },
+    "adaptive_team/prompts/roles/fullstack_engineer.md": {
+      "sha256": "6c9ad9b744bc33079defb0cd77445e7fa5287ef8459896f4c32b122a9ef2675f",
+      "size": 2545
+    },
+    "adaptive_team/prompts/roles/game_systems_specialist.md": {
+      "sha256": "58343d0fe1656a51ce72f8ad5d73dc37ddecef1883ab075cfdafd06e72820f24",
+      "size": 3081
+    },
+    "adaptive_team/prompts/roles/geospatial_specialist.md": {
+      "sha256": "3c4fa135d6f7f1d917354a08ee0133bec9f370539f715e786b8ac80bbbe1b0fe",
+      "size": 3017
+    },
+    "adaptive_team/prompts/roles/graphics_engineer.md": {
+      "sha256": "a8ee4669ecabae7fae95d6ced73d31ece955ba6f46b0daafa61bf2ee0efdbb50",
+      "size": 2533
+    },
+    "adaptive_team/prompts/roles/health_data_specialist.md": {
+      "sha256": "a028e551eed98a809a4cd2fd5db608960c86e692db468e179d4cf7436560b153",
+      "size": 3070
+    },
+    "adaptive_team/prompts/roles/identity_engineer.md": {
+      "sha256": "4396e6458d97f7c4743243abbe4793c48c2b443dd977df9ede41d9ec7e3b8c02",
+      "size": 3107
+    },
+    "adaptive_team/prompts/roles/incident_analyst.md": {
+      "sha256": "d5a6f24dd88a8300e482d49e0149677d5321afbc717018b02cdabce26c5e4212",
+      "size": 3087
+    },
+    "adaptive_team/prompts/roles/industrial_specialist.md": {
+      "sha256": "600c9fd2d56840829f3cf86cf961105a8a85b456e44e9f24ff8e02f1ec199909",
+      "size": 3124
+    },
+    "adaptive_team/prompts/roles/infrastructure_engineer.md": {
+      "sha256": "663dddec228c1b072915ec69f24ef85787bc821fc66cc586c3d6f428c80e24cc",
+      "size": 3101
+    },
+    "adaptive_team/prompts/roles/integration_architect.md": {
+      "sha256": "9ebd7e204394ba9cb5cf020bbeeb1ed347fab15a1c7922108e04e58ccfc99a27",
+      "size": 3166
+    },
+    "adaptive_team/prompts/roles/integration_engineer.md": {
+      "sha256": "08ca7e7c6bbd0c6d0b4fbce13335194abfb4ccd1c545a5a37b5461a404e25374",
+      "size": 2585
+    },
+    "adaptive_team/prompts/roles/ios_engineer.md": {
+      "sha256": "1e2641f447042968bd9725eb047ef4cb6b43bb1e8d83fe73d17343565ea99b44",
+      "size": 2582
+    },
+    "adaptive_team/prompts/roles/iot_specialist.md": {
+      "sha256": "700fd4f392fa1d346c62d7f53a23694e52c484dbb49a1c19bdbc5b73054b69b5",
+      "size": 3077
+    },
+    "adaptive_team/prompts/roles/llm_engineer.md": {
+      "sha256": "4fa8950cb5c3d4741b2873e4ca29a0debd3d0b09957b46859f93cbe6a7fc2a7d",
+      "size": 3033
+    },
+    "adaptive_team/prompts/roles/localization_specialist.md": {
+      "sha256": "1ebb8ef1d4359ed9f6cec37a57f8584051ca70303861f43a804367de07b6c1b2",
+      "size": 3112
+    },
+    "adaptive_team/prompts/roles/maintenance_engineer.md": {
+      "sha256": "0e0b74c430e1d431a912cea76253e3394b6a1aba2f54371cfb2b9687b92d488b",
+      "size": 3071
+    },
+    "adaptive_team/prompts/roles/market_researcher.md": {
+      "sha256": "8896b1de57d13d378e418d4ad62fbd8885a42420cd5f0cd66d4f3aa236ddcc3b",
+      "size": 3180
+    },
+    "adaptive_team/prompts/roles/media_specialist.md": {
+      "sha256": "f6ef12676aaa3497dd83ddf995b9fc4548c7d550c681269581fbcb3e38cc440b",
+      "size": 3021
+    },
+    "adaptive_team/prompts/roles/migration_architect.md": {
+      "sha256": "04262a0eb2676b066ce3045ca43fa2854f16e537e6cea363e73669de69058257",
+      "size": 3084
+    },
+    "adaptive_team/prompts/roles/ml_engineer.md": {
+      "sha256": "2e7d437b78cf2eee8258c7c4df18e7c6a02e9652ec37bcbcd4a99236ea5cbce8",
+      "size": 3016
+    },
+    "adaptive_team/prompts/roles/mlops_engineer.md": {
+      "sha256": "3f64f7d9bd838cb7e3d8bd83bc591bb95d0b61bffb5d6ab67f9aeee7496c3854",
+      "size": 3076
+    },
+    "adaptive_team/prompts/roles/mobile_qa.md": {
+      "sha256": "dcbfea9029782b319a84acf1a23139aa6a615d65fbe367252b79bf88fcc9f297",
+      "size": 3064
+    },
+    "adaptive_team/prompts/roles/observability_engineer.md": {
+      "sha256": "51b3923ce545f5d7580a5f0c02746bbb5b27ea0df4a8ba39c741844e354977aa",
+      "size": 3041
+    },
+    "adaptive_team/prompts/roles/payments_specialist.md": {
+      "sha256": "547f59c97f45c6e7978f84f6a0e399d51b3410b3298632ac44d4ec8f6fc4f2a2",
+      "size": 3123
+    },
+    "adaptive_team/prompts/roles/performance_engineer.md": {
+      "sha256": "a1ebd45117d96149ce2e8c38f527681facdafacad678b009b288b7456dee9fc8",
+      "size": 3109
+    },
+    "adaptive_team/prompts/roles/platform_engineer.md": {
+      "sha256": "2fb7229dfde9a2a2e82313c8b1b3b2bdd72bbc4b870c6fa1540ddf2aec89f84f",
+      "size": 3103
+    },
+    "adaptive_team/prompts/roles/plc_engineer.md": {
+      "sha256": "d193cb84ce5a7b8e96efef7455baf04c26c25e0c6fcb8c2bbe206059d90c4699",
+      "size": 2616
+    },
+    "adaptive_team/prompts/roles/portfolio_planner.md": {
+      "sha256": "3795e8e5ec1b692380d207e5d372e388285646e861adf49c97a94ae8f1803971",
+      "size": 3101
+    },
+    "adaptive_team/prompts/roles/privacy_reviewer.md": {
+      "sha256": "792d5d69314b3feac3abbe8a721f1aaf8d2f028bb756e03d3e9e1e298c8d6db9",
+      "size": 3028
+    },
+    "adaptive_team/prompts/roles/product_manager.md": {
+      "sha256": "799f3e318001afd506d62ccaea7c87aa25cacd719c9aab4c745af01b90b7f5da",
+      "size": 3118
+    },
+    "adaptive_team/prompts/roles/product_strategy_analyst.md": {
+      "sha256": "3d63c87d438f713a3501b525f19ecef1e991ed96b43491d1e409b14ef8c36cb1",
+      "size": 3252
+    },
+    "adaptive_team/prompts/roles/prompt_engineer.md": {
+      "sha256": "ca9b1365f8c38fb10702e4689266e27463d1e5046dab66e5ed75b1fa0f79547e",
+      "size": 3255
+    },
+    "adaptive_team/prompts/roles/qa_engineer.md": {
+      "sha256": "f0d99a11bfb6df15393471e0c4c967251e7b857ab44db1ddb5c3f49eca761341",
+      "size": 3066
+    },
+    "adaptive_team/prompts/roles/rag_engineer.md": {
+      "sha256": "c94f03180cf7c148b7e3cb75e3cfa625d670739d9840657d8912e695a43c7f61",
+      "size": 3061
+    },
+    "adaptive_team/prompts/roles/realtime_engineer.md": {
+      "sha256": "c4f2c5889e9bd3bad868203398498d007701a8957179a3fb1f18249e3611fd71",
+      "size": 2548
+    },
+    "adaptive_team/prompts/roles/recovery_engineer.md": {
+      "sha256": "8c2bc60a2be34505640168f9f463468a1575511f6a338d26631dfaf007dbbedc",
+      "size": 3041
+    },
+    "adaptive_team/prompts/roles/refactoring_engineer.md": {
+      "sha256": "5b01c1ccca67e0ca4d2e894766ba311cbc87a906642e060088bba1639f9c053a",
+      "size": 3162
+    },
+    "adaptive_team/prompts/roles/release_engineer.md": {
+      "sha256": "69084f73aecc0896b354c080d8a8038c1a7382ecc37e8f42d4e83954ff7c3ae2",
+      "size": 3127
+    },
+    "adaptive_team/prompts/roles/reliability_engineer.md": {
+      "sha256": "f33353548a67c5319b1a1415bb02b83430507a4494abddc219823f8dee0267b1",
+      "size": 3055
+    },
+    "adaptive_team/prompts/roles/requirements_engineer.md": {
+      "sha256": "c50ad735612cdf871fec99cc42c6946941fecf18c9f5c2cf2a226088dacb0d45",
+      "size": 3174
+    },
+    "adaptive_team/prompts/roles/requirements_reviewer.md": {
+      "sha256": "fefddc290e27d455328976d33dc7aab3ff8f2ced5c8f623aa19c59ca6636760d",
+      "size": 3161
+    },
+    "adaptive_team/prompts/roles/risk_analyst.md": {
+      "sha256": "b8239a4c36d263f98f219625788bf8080fa6ae4b4702848e184554e0947a5f64",
+      "size": 3064
+    },
+    "adaptive_team/prompts/roles/role_curator.md": {
+      "sha256": "8b64d850a271ce14980f838f66e590e921d23089b726a9336880669720693120",
+      "size": 3182
+    },
+    "adaptive_team/prompts/roles/scientific_computing_specialist.md": {
+      "sha256": "e1ea2f7045885856a21e1dc5678f19ddfc0f96a38eeebdd4e0760e096b59c05b",
+      "size": 3071
+    },
+    "adaptive_team/prompts/roles/security_architect.md": {
+      "sha256": "c7b875dd1b88fcddbad8ab8bd5ac8b86275fc2a6551ff221c0305a43e8fe0fed",
+      "size": 3080
+    },
+    "adaptive_team/prompts/roles/security_reviewer.md": {
+      "sha256": "f2ab189fbc7116139c9540b74d26454f79de2fff566f504ceeb491f149a55cf9",
+      "size": 3110
+    },
+    "adaptive_team/prompts/roles/software_architect.md": {
+      "sha256": "193b0559bf4a610c6782ab513dd512ea670becc1a2548018720015bea0642907",
+      "size": 3153
+    },
+    "adaptive_team/prompts/roles/solution_architect.md": {
+      "sha256": "a7d20f6f57c570d18aceeb39300320dd24fcf6aaad999d9cff1a8119a5ec7058",
+      "size": 3210
+    },
+    "adaptive_team/prompts/roles/sre_engineer.md": {
+      "sha256": "4916d19ecbafa6788047a71c3d15e3e57f028692abd4343a747822fabfb992ba",
+      "size": 3048
+    },
+    "adaptive_team/prompts/roles/supply_chain_reviewer.md": {
+      "sha256": "c02d439737e42b8e71014ff14bdda3f716241de05e5e44fea39ae4ce83e7e403",
+      "size": 3071
+    },
+    "adaptive_team/prompts/roles/support_analyst.md": {
+      "sha256": "3fcf4109d80f381b60ff3f96937ae93dfe1d28dd674f9a05495784908420d2ff",
+      "size": 3114
+    },
+    "adaptive_team/prompts/roles/systems_analyst.md": {
+      "sha256": "dd3bd39e4b640aee0e7a4f1c89d029a2350f4d0065bf52ad5b9496d22eb1619d",
+      "size": 3055
+    },
+    "adaptive_team/prompts/roles/technical_writer.md": {
+      "sha256": "36e46be585dfeaf5b91824755f87ffe36ab106b483bfd7c844ec86f1e7ec92c9",
+      "size": 3083
+    },
+    "adaptive_team/prompts/roles/technology_researcher.md": {
+      "sha256": "eac459b9826364c37f146267a7a5fd56376885bc8ed70bc9f3a3814eed1e5e10",
+      "size": 3241
+    },
+    "adaptive_team/prompts/roles/test_automation_engineer.md": {
+      "sha256": "99bb50543aac8c650ee6ef352330e346565407330c304715d374e055ab52ab19",
+      "size": 3088
+    },
+    "adaptive_team/prompts/roles/threat_modeler.md": {
+      "sha256": "cb0da97bae75652819ded29ead15fd6fe31bda79f583b734f412aa63e53b8a04",
+      "size": 3087
+    },
+    "adaptive_team/prompts/roles/tia_reviewer.md": {
+      "sha256": "258c2ad72a70c7ddaee10ff566e68837fa974e8bc81d404f67c90e768573998a",
+      "size": 3146
+    },
+    "adaptive_team/prompts/roles/ui_designer.md": {
+      "sha256": "3f92e931490312c65adc9524e4eb428d266ca8af8b52c7a9af3657fdcea4f19b",
+      "size": 2974
+    },
+    "adaptive_team/prompts/roles/user_researcher.md": {
+      "sha256": "dd01c81de8676a85bdaba707259a9b919a94faf0df6957722c11495ca878654b",
+      "size": 3206
+    },
+    "adaptive_team/prompts/roles/ux_designer.md": {
+      "sha256": "b901cc7886487a7d3e5b9733472fb4525e1999f652c09bc65d3a0d7d3a5a6ae6",
+      "size": 3059
+    },
+    "adaptive_team/protocols/__init__.py": {
+      "sha256": "5565cdaf46b3993137f373fccb642227112619ca6a211884d4074af077a87238",
+      "size": 88
+    },
+    "adaptive_team/protocols/a2a/__init__.py": {
+      "sha256": "0a1fd36fd726d724bfc93b65b59d5ff55fb25d9fa8d4bb41632deb05e1c47c4e",
+      "size": 278
+    },
+    "adaptive_team/protocols/a2a/cards.py": {
+      "sha256": "db73cfed580cd3a56e1d0bffc9c25f03885f8ccc4a5acf5d232301f52f6452fe",
+      "size": 7049
+    },
+    "adaptive_team/protocols/a2a/client.py": {
+      "sha256": "b671c754ea81783d9ae556f2766acb6fe82f1cc18a203513051df766b3038aa4",
+      "size": 5440
+    },
+    "adaptive_team/protocols/a2a/discovery.py": {
+      "sha256": "90e09850f927de5c86ba2446e75b6f59d3a4b34b7a466be83a8da4deaa1f106f",
+      "size": 9083
+    },
+    "adaptive_team/protocols/http.py": {
+      "sha256": "91a1b0d0f86ecb43aa6f833f0e1d659da8938a3372adceb672dfb739da00039e",
+      "size": 10434
+    },
+    "adaptive_team/protocols/jsonrpc.py": {
+      "sha256": "5153bac33b3518d5b611edba317e0eb3731e65913026f8feb7e378dd42654b32",
+      "size": 9687
+    },
+    "adaptive_team/protocols/mcp/__init__.py": {
+      "sha256": "25649681d0b424f7f92751272535f1d99a23fad1bf95417365078ef8f883651b",
+      "size": 240
+    },
+    "adaptive_team/protocols/mcp/client.py": {
+      "sha256": "a71268f46166e24bd23d34522d89f9bde79e3e2788d92ff8ce92305fe5eb75e1",
+      "size": 9966
+    },
+    "adaptive_team/protocols/mcp/headers.py": {
+      "sha256": "b6e7ec7b33088997f89a87870902ef404f10c598f407adcbaedece1c7d85763f",
+      "size": 2734
+    },
+    "adaptive_team/providers/__init__.py": {
+      "sha256": "902f3e932ed2c7b715b66f02f572fd62e0464efcb69fe42b085439767deedaaa",
+      "size": 71
+    },
+    "adaptive_team/providers/batch.py": {
+      "sha256": "72a7401016bc675daf56db1309a1005f3b2c09eebfd6dd8f1b46108a816ad711",
+      "size": 11944
+    },
+    "adaptive_team/providers/router.py": {
+      "sha256": "05890c9f61f87948173af039bccfd9b716f1ab1c8163258f576efb1cae5df127",
+      "size": 6467
+    },
+    "adaptive_team/roles.json": {
+      "sha256": "b527e2c8d93192a79675b2e07fd528a824b4c3cff80292c68f840eca887d1696",
+      "size": 77795
+    },
+    "adaptive_team/runner.py": {
+      "sha256": "82f6fa9cfff7174a9e0c76532174d1454555827195eb802eaba3b20f3e1a5313",
+      "size": 3758
+    },
+    "adaptive_team/security/__init__.py": {
+      "sha256": "e2c6185c8f37c3a3fbb4e4dcb499210d17f0628448d88ee8e5e9041db9f1b27c",
+      "size": 77
+    },
+    "adaptive_team/security/_store.py": {
+      "sha256": "ff0429337551773d0bf33f73a4fb5ec66c1f9554d3cf197dd398e6a7e1e47b5a",
+      "size": 1584
+    },
+    "adaptive_team/security/action_admission.py": {
+      "sha256": "b44daaa4c74e5b477eac475ec059306621aa4441c12c2bb25d633a61dc2f8345",
+      "size": 3629
+    },
+    "adaptive_team/security/circuit_breaker.py": {
+      "sha256": "bd4ead18a01d3a8a7e403daf1bcd4f9ec2480e726f84adaa585fe3f2c8f356fc",
+      "size": 5596
+    },
+    "adaptive_team/security/file_lock.py": {
+      "sha256": "0092145cf47c8badef55ec902cfc598d8531ec33a6a9231c0b58a0e925076f4f",
+      "size": 1687
+    },
+    "adaptive_team/security/guard.py": {
+      "sha256": "4900b47edd08f2eaa38d44ae2f101638c144bc0b1c6982106f0fb443539704f4",
+      "size": 1735
+    },
+    "adaptive_team/security/input_snapshot.py": {
+      "sha256": "79872f00b910d6b4107c051e950f7d5a92a972aecd8f282bed22b4cb882af479",
+      "size": 9751
+    },
+    "adaptive_team/security/key_provider.py": {
+      "sha256": "66f17038f368ec669acc6cbc9c14fbe9f53ebbc8f2788bba788be316b406763d",
+      "size": 2742
+    },
+    "adaptive_team/security/payload_crypto.py": {
+      "sha256": "752be1d52727de9d7fd149eda68d909535e19d8b6704fce02e3b8d775984c79e",
+      "size": 2725
+    },
+    "adaptive_team/security/rate_limiter.py": {
+      "sha256": "bff4863adea3e9b1abb0e89e267fe21180ac64c2bb16911e6ba6a549da0b3469",
+      "size": 2431
+    },
+    "adaptive_team/security/role_authority.py": {
+      "sha256": "83c53a1c85f596d93356db17fea7285f7c013b7b136e56484a428c9f65e47efe",
+      "size": 3804
+    },
+    "adaptive_team/security/sandbox.py": {
+      "sha256": "acafbecbe1e621ab419a16079ed995d23fa113d4fefa7277beee6e7a622cc6cb",
+      "size": 21572
+    },
+    "adaptive_team/security/watchdog.py": {
+      "sha256": "f7f79a39776f9fa5de6cbd143be5d3c45c71a9b107872c1d27f191356cbdb024",
+      "size": 11608
+    },
+    "adaptive_team/storage/__init__.py": {
+      "sha256": "912f0ab78ab2d5bb517393277d1bd545ea52a969480b7e02ca2426d4545cff81",
+      "size": 81
+    },
+    "adaptive_team/storage/billing.sql": {
+      "sha256": "41a4aeaffcaa47823ceb8a368838a8ed99f402e7f85ae373819a2f69cc4bd2ec",
+      "size": 1211
+    },
+    "adaptive_team/storage/evolution_rows.py": {
+      "sha256": "a9bd0cadb47bae97fc5d0fe353e9b2e02123e4a7c5a4b52f5656334b18d0a233",
+      "size": 3713
+    },
+    "adaptive_team/storage/memory.sql": {
+      "sha256": "c7062f87a6bc80bbdf3b5e95128cb6dd27b6e0d44b094629b942d267f517641e",
+      "size": 1058
+    },
+    "adaptive_team/storage/relational.py": {
+      "sha256": "4a1a600919047f1b67ef1545e131f9c25806e66746707ec9e9891089ffb3fb1d",
+      "size": 10637
+    },
+    "adaptive_team/storage/remote_agents.py": {
+      "sha256": "7162a36f0d87cdcf5415e8f9f76d2521f8cbabc7d11e429019c591d5a995d67f",
+      "size": 2523
+    },
+    "adaptive_team/storage/schema.sql": {
+      "sha256": "a32f4dbc5ee9eec645315eafc93804f32d82c5796541dbe7685fd6f88ee9ffc6",
+      "size": 4868
+    },
+    "adaptive_team/verification/__init__.py": {
+      "sha256": "fa0c1563e7fbb33c5cffc391694c3316e3eca773281e58233ff8067d89e89867",
+      "size": 78
+    },
+    "adaptive_team/verification/acceptance_gate.py": {
+      "sha256": "5c71b912f1371ec7e8cdaed0a9c3704881bde89cd219f2002c2f40c4e0df529a",
+      "size": 790
+    },
+    "adaptive_team/verification/gates.py": {
+      "sha256": "3133b48c3cb80b518fb934feddf71942ac6cb9a1aee088e89ee2a9fada1dfa15",
+      "size": 4197
+    },
+    "adaptive_team/verification/plan_gate.py": {
+      "sha256": "bdaf98d08c41dc2317d9bab8e7da3f50d6ef4fad9449c5172d4e45bd4c01f10a",
+      "size": 1713
+    },
+    "adaptive_team/verification/sandbox_checks.py": {
+      "sha256": "6a254b77f0fd76bd075c719b5924dc3e82d357fbf232311bc71bf52a3224b5e4",
+      "size": 1819
+    },
+    "memory/portable/README.md": {
+      "sha256": "ecfd36578f367cb8404b43ae61b1f3e984404cdb8f4436ca00901c2b4d257263",
+      "size": 426
+    }
+  },
+  "runtime_version": "1.1.1",
+  "schema_version": 1
+}

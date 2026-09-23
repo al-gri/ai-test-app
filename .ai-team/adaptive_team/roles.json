@@ -1,0 +1,1893 @@
+{
+  "schema_version": 2,
+  "catalog_version": "0.5.0",
+  "roles": [
+    {
+      "id": "chief_architect",
+      "name": "Chief Architect",
+      "group": "coordination",
+      "mission": "Choose the smallest team, system boundaries, and work sequence",
+      "output": "A dependency plan with justification for each specialist",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "portfolio_planner",
+      "name": "Portfolio Planner",
+      "group": "coordination",
+      "mission": "Allocate resources across products and stages",
+      "output": "A priority and constraints queue",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "delivery_coordinator",
+      "name": "Delivery Coordinator",
+      "group": "coordination",
+      "mission": "Remove blockers and track acceptance of results",
+      "output": "The next authorized action and status",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "product_manager",
+      "name": "Product Analyst",
+      "group": "coordination",
+      "mission": "Clarify feature value and MVP boundaries",
+      "output": "The goal, exclusions, and success criteria",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "business_analyst",
+      "name": "Business Analyst",
+      "group": "coordination",
+      "mission": "Analyze business rules and user processes",
+      "output": "Verifiable rules and scenarios",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "requirements_engineer",
+      "name": "Requirements Engineer",
+      "group": "coordination",
+      "mission": "Remove ambiguity from requirements",
+      "output": "Acceptance criteria and a traceability matrix",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "systems_analyst",
+      "name": "Systems Analyst",
+      "group": "coordination",
+      "mission": "Analyze components and external dependencies",
+      "output": "Contracts and constraints",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "risk_analyst",
+      "name": "Risk Analyst",
+      "group": "coordination",
+      "mission": "Assess reversibility, uncertainty, and required checks",
+      "output": "Risks with concrete mitigations",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "user_researcher",
+      "name": "User Researcher",
+      "group": "design",
+      "mission": "Test hypotheses about needs using available data",
+      "output": "Hypotheses, evidence, and limitations",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "ux_designer",
+      "name": "UX Designer",
+      "group": "design",
+      "mission": "Design user scenarios",
+      "output": "Flows, states, and usability criteria",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "ui_designer",
+      "name": "UI Designer",
+      "group": "design",
+      "mission": "Design visual interface states",
+      "output": "A screen and component specification",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "design_system_engineer",
+      "name": "Design System Engineer",
+      "group": "design",
+      "mission": "Provide consistent reusable components",
+      "output": "Tokens and components",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "accessibility_specialist",
+      "name": "Accessibility Specialist",
+      "group": "design",
+      "mission": "Check interface operability and perception",
+      "output": "Accessibility check results",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "content_designer",
+      "name": "Content Designer",
+      "group": "design",
+      "mission": "Make interface copy and error messages understandable",
+      "output": "State and action text",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "localization_specialist",
+      "name": "Localization Specialist",
+      "group": "design",
+      "mission": "Check languages, formats, and display constraints",
+      "output": "Localizations and checks",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "solution_architect",
+      "name": "Solution Architect",
+      "group": "architecture",
+      "mission": "Define product and integration boundaries",
+      "output": "An architectural decision with trade-offs",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "software_architect",
+      "name": "Software Architect",
+      "group": "architecture",
+      "mission": "Define modules, invariants, and dependencies",
+      "output": "Module contracts and an ADR",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "api_architect",
+      "name": "API Architect",
+      "group": "architecture",
+      "mission": "Fix interface contracts before parallel implementation",
+      "output": "An API schema and compatibility specification",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "data_architect",
+      "name": "Data Architect",
+      "group": "architecture",
+      "mission": "Define data ownership, schemas, and lifecycle",
+      "output": "Data and migration contracts",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "cloud_architect",
+      "name": "Cloud Architect",
+      "group": "architecture",
+      "mission": "Choose hosting to meet measured requirements",
+      "output": "A hosting plan and constraints",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "integration_architect",
+      "name": "Integration Architect",
+      "group": "architecture",
+      "mission": "Define behavior when external systems fail",
+      "output": "Integration contracts",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "distributed_systems_architect",
+      "name": "Distributed Systems Architect",
+      "group": "architecture",
+      "mission": "Define consistency and recovery",
+      "output": "Invariants and failure scenarios",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "migration_architect",
+      "name": "Migration Architect",
+      "group": "architecture",
+      "mission": "Plan a compatible transition and rollback",
+      "output": "Migration stages and checks",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "developer",
+      "name": "Generalist Developer",
+      "group": "engineering",
+      "mission": "Implement a small complete result",
+      "output": "Changes and verifiable results",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "backend_engineer",
+      "name": "Backend Engineer",
+      "group": "engineering",
+      "mission": "Implement server-side logic",
+      "output": "Service and contract checks",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "frontend_engineer",
+      "name": "Frontend Engineer",
+      "group": "engineering",
+      "mission": "Implement the user interface",
+      "output": "Components and scenarios",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "fullstack_engineer",
+      "name": "Full-Stack Engineer",
+      "group": "engineering",
+      "mission": "Implement a small end-to-end slice",
+      "output": "A working feature from interface to data",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "android_engineer",
+      "name": "Android Engineer",
+      "group": "engineering",
+      "mission": "Implement an Android application feature",
+      "output": "Source code and Android checks",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "ios_engineer",
+      "name": "iOS Engineer",
+      "group": "engineering",
+      "mission": "Implement an iOS application feature",
+      "output": "Source code and iOS checks",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "crossplatform_engineer",
+      "name": "Cross-Platform Engineer",
+      "group": "engineering",
+      "mission": "Implement a shared client with platform boundaries",
+      "output": "Client and platform checks",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "desktop_engineer",
+      "name": "Desktop Engineer",
+      "group": "engineering",
+      "mission": "Implement a desktop feature",
+      "output": "Application and checks",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "embedded_engineer",
+      "name": "Embedded Engineer",
+      "group": "engineering",
+      "mission": "Implement a bounded hardware function",
+      "output": "Code and hardware contract",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "plc_engineer",
+      "name": "PLC Engineer",
+      "group": "engineering",
+      "mission": "Implement a confirmed PLC contract",
+      "output": "PLC artifacts and semantic checks",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "compiler_engineer",
+      "name": "Compiler Engineer",
+      "group": "engineering",
+      "mission": "Implement validation and deterministic transformation",
+      "output": "IR, diagnostics, and checks",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "database_engineer",
+      "name": "Database Engineer",
+      "group": "engineering",
+      "mission": "Implement schemas and queries",
+      "output": "Migrations, queries, and checks",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "integration_engineer",
+      "name": "Integration Engineer",
+      "group": "engineering",
+      "mission": "Implement an external contract and failure handling",
+      "output": "Adapter and contract checks",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "realtime_engineer",
+      "name": "Real-Time Systems Engineer",
+      "group": "engineering",
+      "mission": "Implement behavior with timing constraints",
+      "output": "Code and latency measurements",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "graphics_engineer",
+      "name": "Graphics Engineer",
+      "group": "engineering",
+      "mission": "Implement visualization and rendering",
+      "output": "Graphics component and checks",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "build_engineer",
+      "name": "Build Engineer",
+      "group": "engineering",
+      "mission": "Fix build reproducibility within authorized scope",
+      "output": "build and reproducibility evidence",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "refactoring_engineer",
+      "name": "Refactoring Engineer",
+      "group": "engineering",
+      "mission": "Change structure while preserving behavior",
+      "output": "bounded refactoring with regression tests",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "maintenance_engineer",
+      "name": "Maintenance Engineer",
+      "group": "engineering",
+      "mission": "Fix a reproducible defect",
+      "output": "fix and regression check",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "data_engineer",
+      "name": "Data Engineer",
+      "group": "data_ai",
+      "mission": "Implement a data flow and its verifiability",
+      "output": "A pipeline and quality checks",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "analytics_engineer",
+      "name": "Analytics Engineer",
+      "group": "data_ai",
+      "mission": "Implement analytical models",
+      "output": "Models, metrics, and checks",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "data_scientist",
+      "name": "Data Scientist",
+      "group": "data_ai",
+      "mission": "Test a hypothesis using available data",
+      "output": "A reproducible experiment",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "ml_engineer",
+      "name": "Machine Learning Engineer",
+      "group": "data_ai",
+      "mission": "Implement a model component",
+      "output": "Training or inference with evaluation",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "llm_engineer",
+      "name": "LLM Application Engineer",
+      "group": "data_ai",
+      "mission": "Implement a bounded model workflow",
+      "output": "A request contract and quality evaluation",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "rag_engineer",
+      "name": "Retrieval-Augmented Generation Engineer",
+      "group": "data_ai",
+      "mission": "Implement retrieval and verifiable source references",
+      "output": "Retrieval and relevance evaluation",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "evaluation_engineer",
+      "name": "AI Evaluation Engineer",
+      "group": "data_ai",
+      "mission": "Measure quality on a fixed task set",
+      "output": "An evaluation set and report",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "mlops_engineer",
+      "name": "MLOps Engineer",
+      "group": "data_ai",
+      "mission": "Define reproducible release of a model component",
+      "output": "Data/model versions and checks",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "code_reviewer",
+      "name": "Independent Code Reviewer",
+      "group": "quality",
+      "mission": "Check the exact candidate against requirements",
+      "output": "verdict and concrete findings",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "architecture_reviewer",
+      "name": "Architecture Reviewer",
+      "group": "quality",
+      "mission": "Independently check boundaries and trade-offs",
+      "output": "architectural verdict",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "requirements_reviewer",
+      "name": "Requirements Reviewer",
+      "group": "quality",
+      "mission": "Check fulfillment of every criterion",
+      "output": "criterion-to-evidence matrix",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "qa_engineer",
+      "name": "QA Engineer",
+      "group": "quality",
+      "mission": "Check the feature and negative scenarios",
+      "output": "check set and results",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "test_automation_engineer",
+      "name": "Test Automation Engineer",
+      "group": "quality",
+      "mission": "Automate significant repeatable checks",
+      "output": "tests and results",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "mobile_qa",
+      "name": "Mobile QA Engineer",
+      "group": "quality",
+      "mission": "Check devices, state, and lifecycle",
+      "output": "mobile scenarios and results",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "browser_qa",
+      "name": "Browser QA Engineer",
+      "group": "quality",
+      "mission": "Check browser user scenarios",
+      "output": "results for target browsers",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "performance_engineer",
+      "name": "Performance Engineer",
+      "group": "quality",
+      "mission": "Measure performance under specified load",
+      "output": "profile and reproducible experiment",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "reliability_engineer",
+      "name": "Reliability Engineer",
+      "group": "quality",
+      "mission": "Check recovery and resilience",
+      "output": "failure scenarios and results",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "chaos_engineer",
+      "name": "Chaos Engineer",
+      "group": "quality",
+      "mission": "Test authorized failures in an isolated environment",
+      "output": "experiment and findings",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "compatibility_engineer",
+      "name": "Compatibility Engineer",
+      "group": "quality",
+      "mission": "Check versions, formats, and backward compatibility",
+      "output": "compatibility matrix",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "acceptance_reviewer",
+      "name": "Acceptance Reviewer",
+      "group": "quality",
+      "mission": "Check the final result against the goal",
+      "output": "acceptance or precise blockers",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "security_architect",
+      "name": "Security Architect",
+      "group": "security",
+      "mission": "Define trust boundaries and permissions",
+      "output": "trust model and invariants",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "security_reviewer",
+      "name": "Security Reviewer",
+      "group": "security",
+      "mission": "Check concrete threats and access",
+      "output": "findings with verifiable impact",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "appsec_engineer",
+      "name": "Application Security Engineer",
+      "group": "security",
+      "mission": "Implement a bounded security fix",
+      "output": "fix and regression test",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "threat_modeler",
+      "name": "Threat Modeler",
+      "group": "security",
+      "mission": "Analyze realistic paths that violate trust",
+      "output": "threat model and priorities",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "supply_chain_reviewer",
+      "name": "Supply Chain Reviewer",
+      "group": "security",
+      "mission": "Check dependencies and artifact provenance",
+      "output": "provenance and dependency report",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "privacy_reviewer",
+      "name": "Privacy Reviewer",
+      "group": "security",
+      "mission": "Check data minimization and lifecycle",
+      "output": "data-flow checks",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "identity_engineer",
+      "name": "Identity and Access Engineer",
+      "group": "security",
+      "mission": "Implement verifiable identity and access rules",
+      "output": "access rules and tests",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "cryptography_reviewer",
+      "name": "Cryptography Reviewer",
+      "group": "security",
+      "mission": "Check the use of established cryptographic primitives",
+      "output": "usage and protocol findings",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "compliance_analyst",
+      "name": "Compliance Analyst",
+      "group": "security",
+      "mission": "Map specified obligations to evidence",
+      "output": "obligations and gaps matrix",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "devops_engineer",
+      "name": "DevOps Engineer",
+      "group": "platform_operations",
+      "mission": "Implement authorized delivery automation",
+      "output": "configuration and checks",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "platform_engineer",
+      "name": "Platform Engineer",
+      "group": "platform_operations",
+      "mission": "Implement a repeatable development environment",
+      "output": "platform component and contract",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "infrastructure_engineer",
+      "name": "Infrastructure Engineer",
+      "group": "platform_operations",
+      "mission": "Prepare bounded environment configuration",
+      "output": "configuration and application plan",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "sre_engineer",
+      "name": "Site Reliability Engineer",
+      "group": "platform_operations",
+      "mission": "Define measurable reliability objectives",
+      "output": "SLIs/SLOs and recovery scenarios",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "observability_engineer",
+      "name": "Observability Engineer",
+      "group": "platform_operations",
+      "mission": "Provide useful metrics and diagnostics",
+      "output": "metrics, traces, and alerts",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "release_engineer",
+      "name": "Release Engineer",
+      "group": "platform_operations",
+      "mission": "Prepare a verifiable release without publishing it independently",
+      "output": "release and verification manifest",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "incident_analyst",
+      "name": "Incident Analyst",
+      "group": "platform_operations",
+      "mission": "Establish the cause from evidence",
+      "output": "timeline, cause, and bounded fix",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "recovery_engineer",
+      "name": "Recovery Engineer",
+      "group": "platform_operations",
+      "mission": "Plan and verify data recovery",
+      "output": "recovery plan and evidence",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "cost_analyst",
+      "name": "Cost Analyst",
+      "group": "platform_operations",
+      "mission": "Compare spending with outcomes",
+      "output": "measurements and economic alternatives",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "database_operator",
+      "name": "Database Operations Engineer",
+      "group": "platform_operations",
+      "mission": "Prepare a safe data operation",
+      "output": "operation and rollback plan",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "technical_writer",
+      "name": "Technical Writer",
+      "group": "documentation",
+      "mission": "Explain the contract actually implemented",
+      "output": "Documentation linked to code",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "developer_experience_engineer",
+      "name": "Developer Experience Engineer",
+      "group": "documentation",
+      "mission": "Remove recurring developer friction",
+      "output": "A tooling improvement and its verification",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "support_analyst",
+      "name": "Support Analyst",
+      "group": "documentation",
+      "mission": "Turn support reports into reproducible cases",
+      "output": "Reproduction scenarios and classification",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "industrial_specialist",
+      "name": "Industrial Automation Specialist",
+      "group": "domain_specialists",
+      "mission": "Check scan behavior, state, and PLC data ownership",
+      "output": "engineering constraints and checks",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "tia_reviewer",
+      "name": "Siemens/TIA Reviewer",
+      "group": "domain_specialists",
+      "mission": "Check actual trusted TIA evidence",
+      "output": "verdict bound to revision, profile, and artifacts",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "payments_specialist",
+      "name": "Payments Specialist",
+      "group": "domain_specialists",
+      "mission": "Check payment idempotency and states",
+      "output": "contracts and scenarios",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "commerce_specialist",
+      "name": "Commerce Specialist",
+      "group": "domain_specialists",
+      "mission": "Check orders, inventory, and calculations",
+      "output": "rules and scenarios",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "health_data_specialist",
+      "name": "Health Data Specialist",
+      "group": "domain_specialists",
+      "mission": "Check specified data formats and flows",
+      "output": "data contracts and gaps",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "iot_specialist",
+      "name": "IoT Specialist",
+      "group": "domain_specialists",
+      "mission": "Check devices, connectivity, and offline behavior",
+      "output": "device contracts and scenarios",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "game_systems_specialist",
+      "name": "Game Systems Specialist",
+      "group": "domain_specialists",
+      "mission": "Check game logic and state",
+      "output": "scenarios and constraints",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "geospatial_specialist",
+      "name": "Geospatial Specialist",
+      "group": "domain_specialists",
+      "mission": "Check coordinates and spatial operations",
+      "output": "coordinate contracts and checks",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "media_specialist",
+      "name": "Media Specialist",
+      "group": "domain_specialists",
+      "mission": "Check formats, quality, and streams",
+      "output": "format matrix and measurements",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "scientific_computing_specialist",
+      "name": "Scientific Computing Specialist",
+      "group": "domain_specialists",
+      "mission": "Check numerical stability and reproducibility",
+      "output": "numerical checks and limitations",
+      "capabilities": [
+        "read",
+        "review"
+      ],
+      "activation": "Only when the task requires this competency and an already assigned executor does not cover it.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "technology_researcher",
+      "name": "Technology Researcher",
+      "group": "research_evolution",
+      "mission": "Check technical assumptions against applicable primary sources",
+      "output": "An options comparison and minimal verification protocol",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "An unknown stack, version, or technical approach blocks a decision; a confirmed local signature does not require a broad technology-market survey.",
+      "termination": "After handing over a bounded, verifiable result; engage again only for a new task or materially new data.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria; catalog and active-prompt changes require separate independent evaluation and authorized activation.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "prompt_engineer",
+      "name": "Prompt Engineer",
+      "group": "research_evolution",
+      "mission": "Prepare a measurable role-instruction improvement without changing authority",
+      "output": "A versioned candidate and hypothesis for independent evaluation",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "A specific role has a recurring measurable behavioral failure likely related to instructions or context; cosmetic rewriting is not an improvement.",
+      "termination": "After handing over a bounded, verifiable result; engage again only for a new task or materially new data.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria; catalog and active-prompt changes require separate independent evaluation and authorized activation.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "agent_systems_engineer",
+      "name": "Agent Systems Engineer",
+      "group": "research_evolution",
+      "mission": "Implement a verifiable coordination and trusted-execution mechanism",
+      "output": "A controller change candidate and invariant checks",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "An agent controller, task transport, isolation, or evidence verification needs implementation or repair; increasing the number of roles does not itself require a new service.",
+      "termination": "After handing over a bounded, verifiable result; engage again only for a new task or materially new data.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria; catalog and active-prompt changes require separate independent evaluation and authorized activation.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "role_curator",
+      "name": "Role Curator",
+      "group": "research_evolution",
+      "mission": "Manage competency-development proposals using project evidence",
+      "output": "A role-lifecycle proposal with evaluation and consequences",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Recurring competency gaps, duplicated roles, or new project requirements have emerged; a fashionable new job title alone does not justify a new role.",
+      "termination": "After handing over a bounded, verifiable result; engage again only for a new task or materially new data.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria; catalog and active-prompt changes require separate independent evaluation and authorized activation.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "market_researcher",
+      "name": "Market Researcher",
+      "group": "research_evolution",
+      "mission": "Investigate the market and target segments for a product decision",
+      "output": "Market evidence, limitations, and demand hypotheses",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "The owner is choosing a new product, audience, or market and research could change the investment decision; an internal script does not require a market report.",
+      "termination": "After handing over a bounded, verifiable result; engage again only for a new task or materially new data.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria; catalog and active-prompt changes require separate independent evaluation and authorized activation.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "competitive_analyst",
+      "name": "Competitive Analyst",
+      "group": "research_evolution",
+      "mission": "Compare real alternatives in the same user scenario",
+      "output": "An alternatives matrix and verifiable differentiation hypotheses",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "Existing alternatives and the product's differentiation need to be understood; competitors include manual processes and choosing no solution, not just similar applications.",
+      "termination": "After handing over a bounded, verifiable result; engage again only for a new task or materially new data.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria; catalog and active-prompt changes require separate independent evaluation and authorized activation.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "product_strategy_analyst",
+      "name": "Product Strategy Analyst",
+      "group": "research_evolution",
+      "mission": "Synthesize research into a justified product option for owner approval",
+      "output": "A strategy, MVP-boundary, and continuation-conditions decision packet",
+      "capabilities": [
+        "read",
+        "plan"
+      ],
+      "activation": "After research, a product direction, positioning, or continuation conditions must be chosen; strategic analysis is unnecessary for every small feature.",
+      "termination": "After handing over a bounded, verifiable result; engage again only for a new task or materially new data.",
+      "authority": "Does not change budgets, policy, access, or its own acceptance criteria; catalog and active-prompt changes require separate independent evaluation and authorized activation.",
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30
+    },
+    {
+      "id": "formal_methods_engineer",
+      "name": "Formal Methods Engineer",
+      "group": "engineering",
+      "mission": "Check critical invariants using a formal model",
+      "output": "model, checked properties, counterexamples, and proof boundaries",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "version": 2,
+      "status": "active",
+      "last_reviewed": "2026-09-21",
+      "review_after_days": 30,
+      "activation": "For invariants whose violation is costly or for complex protocols; not mandatory for an ordinary calculator",
+      "termination": "Hand over a verifiable result or a concrete blocker and release the session.",
+      "authority": "Only the ticket's permissions; no authority to change policy, budgets, or active instructions."
+    },
+    {
+      "id": "dependency_manager",
+      "name": "Dependency Manager",
+      "group": "engineering",
+      "mission": "Maintain minimal, secure and reproducible project dependencies",
+      "output": "A verified manifest and lockfile change with compatibility and rollback evidence",
+      "capabilities": [
+        "read",
+        "write",
+        "test"
+      ],
+      "activation": "Only for an approved dependency change within explicit manifest and lockfile scopes.",
+      "termination": "After handing over a verifiable result; does not remain permanently active.",
+      "authority": "Sole dependency-file writer; cannot approve its own work or change policy, budgets or access.",
+      "version": 1,
+      "status": "active",
+      "last_reviewed": "2026-09-22",
+      "review_after_days": 30
+    }
+  ]
+}
